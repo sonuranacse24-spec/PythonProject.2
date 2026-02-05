@@ -1,0 +1,10 @@
+Voltage=float(input("Enter Voltage: "))
+Resistance=float(input("Enter Resistance: "))
+Current=Voltage/Resistance
+print("Current:",Current,"Amphere")
+if Current<0.5:
+    print("Low Current")
+elif 0.5<= Current <= 2:
+    print("Normal Current")
+else:
+    print("High Current")
